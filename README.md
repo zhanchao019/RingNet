@@ -36,6 +36,8 @@ pip install --upgrade pip==19.1.1
 ```
 git clone https://github.com/soubhiksanyal/RingNet.git
 cd RingNet
+conda install -c conda-forge pyrender
+
 pip install six
 pip install imageio==2.6.1
 pip install grpcio==1.35.0
