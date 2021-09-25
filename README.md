@@ -36,8 +36,12 @@ pip install --upgrade pip==19.1.1
 ```
 git clone https://github.com/soubhiksanyal/RingNet.git
 cd RingNet
+pip install six
+pip install imageio==2.6.1
+pip install grpcio==1.35.0
 pip install -r requirements.txt
 pip install opendr==0.77
+
 mkdir model
 ```
 Install mesh processing libraries from [MPI-IS/mesh](https://github.com/MPI-IS/mesh). (This now only works with python 3, so donot install it)
